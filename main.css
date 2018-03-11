@@ -1,0 +1,40 @@
+.left {
+    text-align: left;
+}
+
+.stylized {
+    font-family: fantasy;
+    color: #660055;
+}
+
+.center {
+    text-align: center;
+}
+
+.blackbg {
+    background-color: black;
+}
+
+.white {
+    color: white;
+}
+
+.bigletter {
+    font-size: 1000%;
+    color: wheat;
+    margin: auto;
+}
+
+.imageborder {
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+}
+
+.imgdivmargin {
+    margin-top: 200px
+}
+
+video {
+    background-color: darkgrey;
+}
