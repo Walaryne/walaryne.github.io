@@ -1,6 +1,0 @@
-Farside_251.png filter=lfs diff=lfs merge=lfs -text
-Farside_252.png filter=lfs diff=lfs merge=lfs -text
-favicon.png filter=lfs diff=lfs merge=lfs -text
-farsidefornix.zip filter=lfs diff=lfs merge=lfs -text
-farsideforwindows.zip filter=lfs diff=lfs merge=lfs -text
-farsideupdate.zip filter=lfs diff=lfs merge=lfs -text
