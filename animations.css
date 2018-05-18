@@ -1,0 +1,26 @@
+/* The animation code */
+@keyframes example {
+    0%   {color: red;}
+    25%  {color: yellow;}
+    50%  {color: blue;}
+    75%  {color: green;}
+    100% {color: red}
+}
+
+@keyframes r91 {
+    0%   {color: black;}
+    100% {color: white;}
+}
+
+/* The element to apply the animation to */
+.moove {
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+.w2b {
+    animation-name: r91;
+    animation-duration: 5s;
+    color: white;
+}

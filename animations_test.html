@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"></META>
+    <title>The Farside Project</title>
+    <link rel="icon" type="img/png" href="favicon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="animations.css">
+    <body class="blackbg">
+        <div class="center white" style="margin-top: 15%">
+            <button class="moove" onclick="window.alert('hello there!')">click me</button>
+        </div>
+        <div class="center" style="margin-top: 15%">
+            <script id="black2white">
+                function changeText() {
+                    console.log(document.getElementById('w2btext').classList.add('w2b'));
+                    console.log("working");
+                }
+            </script>
+            <button class="moove" onclick="changeText()">it's a secret to everyone</button>
+            <p id="w2btext">
+                testing, can you see this?
+            </p>
+        </div>
+    </body>
+</html>
