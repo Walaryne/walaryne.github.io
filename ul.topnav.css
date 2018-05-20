@@ -5,6 +5,9 @@ ul.topnav {
     overflow: hidden;
     background-color: #200020;
     border-radius: 10px;
+    position: fixed;
+    width: 98.7%;
+    top: 0;
 }
 
 ul.topnav li {float: left;}
