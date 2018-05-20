@@ -35,5 +35,10 @@
     margin-top: 20%;
 }
 
-
+div.prettylist {
+    background-color: #111;
+    border-radius: 10px;
+    padding: 2px;
+    width: 50%;
+}
 
