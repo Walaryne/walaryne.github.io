@@ -2,6 +2,7 @@
 <html>
     <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"></META>
     <link rel="stylesheet" href="github-markdown.css">
+    <link rel="stylesheet" href="ul.topnav.css">
     <style>
         .markdown-body {
     		box-sizing: border-box;
@@ -17,7 +18,18 @@
     		}
     	}
     </style>
-    <body class="markdown-body">
+    <body>
+        <ul class="topnav">
+            <script src="ul.topnav-js.js"></script>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li class="icon">
+                <a href="javascript:void(0);" onclick="activateHamburgerList()">&#9776;</a>
+            </li>
+        </ul>
+        <div class="markdown-body">
         <h1>INSTALLATION</h1>
 
         <h2>Windows Based Machines</h2>
@@ -67,5 +79,6 @@
         <p>Open it.</p>
 
         <p>Congratulations, you have finished setting up the Unreal project on your machine.</p>
+        </div>
     </body>
 </html>

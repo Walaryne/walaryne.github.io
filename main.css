@@ -19,12 +19,6 @@
     color: white;
 }
 
-.bigletter {
-    font-size: 1000%;
-    color: wheat;
-    margin: auto;
-}
-
 .imageborder {
     border-style: solid;
     border-color: aqua;
@@ -38,14 +32,55 @@
 
 div.prettylist {
     background-color: #111;
-    border-radius: 10px;
-    padding: 2px;
     position: relative;
-    width: 25%;
+    width: 20%;
+    border-radius: 4px;
     margin: 0 auto;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #909;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 18px;
+    padding: 3px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 3px;
+    float: none;
+}
+
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 10%;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .spacer {
     width: 100%;
     height: 5%;
+    margin-top: 2%;
 }
