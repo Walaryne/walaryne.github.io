@@ -1,17 +1,16 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
-    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"></META>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Farside Project</title>
-    <link rel="icon" type="img/png" href="favicon.png">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="ul.topnav.css">
+    <meta charset="utf-8"/>
+    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Farside Projects</title>
+    <link rel="icon" type="img/png" href="favicon.png"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="ul.topnav.css"/>
     <body class="blackbg">
-        <ul class="topnav">
-            <script src="ul.topnav-js.js"></script>
+        <ul class="topnav" id="topnav">
+            <script src="ul.topnav-js.js" onload="prettify()"></script>
             <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
             <li class="icon">
@@ -21,17 +20,17 @@
         <div class="spacer">
             &nbsp;
         </div>
-        <div style="text-align: center; color: #909">
-            <h1>Welcome to the Farside</h1>
+        <div style="text-align: center; color: #709">
+            <h1 class="stylized">The Farside Projects</h1>
+            <h3 class="stylized" style="margin-top: 15%">
+                Projects
+            </h3>
             <div class="prettylist">
-                <h3 style="margin-top: 75%">
-                    Projects
-                </h3>
                 <a href="farside.html">
                     <button class="button"><span>Farside</span></button>
                 </a>
                 <a href="ue4_installation_instructions.html">
-                    <button class="button" onclick=""><span>UE4 Git Integration Manual</span></button>
+                    <button class="button"><span>UE4 Git Integration Manual</span></button>
                 </a>
             </div>
         </div>

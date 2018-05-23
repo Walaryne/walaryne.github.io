@@ -4,7 +4,6 @@
 
 .stylized {
     font-family: fantasy;
-    color: #660055;
 }
 
 .center {
@@ -36,11 +35,12 @@ div.prettylist {
     width: 20%;
     border-radius: 4px;
     margin: 0 auto;
+    padding: 5px;
 }
 
 .button {
     border-radius: 4px;
-    background-color: #909;
+    background-color: #406;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -50,6 +50,7 @@ div.prettylist {
     transition: all 0.5s;
     cursor: pointer;
     margin-top: 3px;
+    margin-bottom: 3px;
     float: none;
 }
 

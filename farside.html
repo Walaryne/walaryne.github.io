@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Farside Project</title>
-    <link rel="icon" type="img/png" href="favicon.png">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="ul.topnav.css">
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Farside Projects</title>
+    <link rel="icon" type="img/png" href="favicon.png"/>
+    <link rel="stylesheet" href="main.css"/>
+    <link rel="stylesheet" href="ul.topnav.css"/>
     <body class="blackbg white">
-        <ul class="topnav">
-            <script src="ul.topnav-js.js"></script>
+        <ul class="topnav" id="topnav">
+            <script src="ul.topnav-js.js" onload="prettify()"></script>
             <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
             <li><a href="contact.html">Contact</a></li>
             <li><a href="about.html">About</a></li>
             <li class="icon">
@@ -21,7 +20,7 @@
             &nbsp;
         </div>
         <div class="center">
-            <h1 class="stylized">
+            <h1 class="stylized" style="color: #709">
                 farside
             </h1>
             <p style="margin-top: 10%">
@@ -47,7 +46,7 @@
                     /username<br>
                 </code>
             </div>
-            <div style="margin-top: 14%; font-size: 150%">
+            <div class="prettylist" style="margin-top: 14%; font-size: 150%; width: 50%">
                 <a href="https://gitlab.com/Walaryne/TheFarsideProject">the sourcecode</a>
                 <br>
                 <a href="farsideforwindows.zip">64 bit binary + libraries for windows</a>
