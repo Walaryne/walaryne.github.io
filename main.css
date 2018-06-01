@@ -28,14 +28,61 @@
     margin-top: 20%;
 }
 
+@keyframes fadein {
+    0%    { opacity: 1; }
+    50%   { opacity: 0.50; }
+    100%  { opacity: 1; }
+}
+
+/* Use some wizardry and make this randomized! */
+@keyframes neonblink {
+    0%    { text-shadow: 2px 2px 6px #507; }
+    10%   { text-shadow: 2px 2px 6px #000; }
+    20%   { text-shadow: 2px 2px 6px #507; }
+    30%   { text-shadow: 2px 2px 6px #305; }
+    40%   { text-shadow: 2px 2px 6px #608; }
+    50%   { text-shadow: 2px 2px 6px #709; }
+    60%   { text-shadow: 2px 2px 6px #204; }
+    65%   { text-shadow: 2px 2px 6px #709; }
+    70%   { text-shadow: 2px 2px 6px #000; }
+    80%   { text-shadow: 2px 2px 6px #305; }
+    90%   { text-shadow: 2px 2px 6px #709; }
+    100%  { text-shadow: 2px 2px 6px #204; }
+}
+
+#title {
+    opacity: 0.50;
+    animation-name: fadein;
+    animation-timing-function: linear;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+
+#projectsubheader {
+    text-shadow: 2px 2px 6px #507;
+    animation-name: neonblink;
+    animation-timing-function: step-start;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+}
 
 div.prettylist {
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
     background-color: #111;
     position: relative;
-    width: 30%;
+    max-width: 20%;
+    max-height: 50%;
     border-radius: 4px;
     margin: 0 auto;
     padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    div.prettylist {
+        max-width: 70%;
+    }
 }
 
 .button {
@@ -51,7 +98,6 @@ div.prettylist {
     cursor: pointer;
     margin-top: 3px;
     margin-bottom: 3px;
-    float: none;
 }
 
 
