@@ -29,8 +29,7 @@
 }
 
 @keyframes fadein {
-    0%    { opacity: 1; }
-    50%   { opacity: 0.50; }
+    0%    { opacity: 0; }
     100%  { opacity: 1; }
 }
 
@@ -51,11 +50,11 @@
 }
 
 #title {
-    opacity: 0.50;
+    opacity: 1;
     animation-name: fadein;
     animation-timing-function: linear;
-    animation-duration: 6s;
-    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
 }
 
 #projectsubheader {
