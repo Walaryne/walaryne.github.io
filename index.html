@@ -1,38 +1,18 @@
 <!DOCTYPE html>
-<html>
-    <meta charset="utf-8"/>
-    <meta HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>The Farside Projects</title>
-    <link rel="icon" type="img/png" href="favicon.png"/>
-    <link rel="stylesheet" href="main.css"/>
-    <link rel="stylesheet" href="ul.topnav.css"/>
-    <body class="blackbg">
-        <ul class="topnav" id="topnav">
-            <script src="ul.topnav-js.js" onload="prettify()"></script>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="icon">
-                <a href="javascript:void(0);" onclick="activateHamburgerList()">&#9776;</a>
-            </li>
-        </ul>
-        <div class="spacer">
-            &nbsp;
-        </div>
-        <div style="text-align: center; color: #709">
-            <h1 id="title" class="stylized">The Farside Projects</h1>
-            <h3 id="projectsubheader" class="stylized" style="margin-top: 15%">
-                Projects
-            </h3>
-            <div class="prettylist">
-                <a href="farside.html">
-                    <button class="button"><span>Farside</span></button>
-                </a>
-                <a href="ue4_installation_instructions.html">
-                    <button class="button"><span>UE4 Git Integration Manual</span></button>
-                </a>
-            </div>
-        </div>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebAssembly Timelock</title>
+</head>
+<body>
+    <label for="n">n variable:</label><br>
+    <input type="text" id="n" name="n" size="256">
+    <label for="t">t variable:</label><br>
+    <input type="text" id="t" name="t" size="16"><br>
+    <button onclick="solve()">Solve</button><br>
+    <label for="result">result: </label><br>
+    <input type="text" id="result" name="result" size="30" disabled><br>
+    <script src="puzzlesolver.js"></script>
+    <script src="buttonhandler.js"></script>
+</body>
 </html>
