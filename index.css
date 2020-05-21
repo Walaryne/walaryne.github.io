@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+}
+
+.grid {
+    display: grid;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.lablei {
+    display: grid;
+    text-align: center;
+    margin: 0 auto 5% auto;
+    width: 50%;
+}
+
+#solve:active {
+    background-color: red;
+}

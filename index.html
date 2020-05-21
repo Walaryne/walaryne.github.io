@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>WebAssembly Timelock</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <label for="n">n variable:</label><br>
-    <input type="text" id="n" name="n" size="256">
-    <label for="t">t variable:</label><br>
-    <input type="text" id="t" name="t" size="16"><br>
-    <button onclick="solve()">Solve</button><br>
-    <label for="result">result: </label><br>
-    <input type="text" id="result" name="result" size="30" disabled><br>
-    <script src="puzzlesolver.js"></script>
+    <div class="grid">
+        <div class="lablei">
+            <label for="n">n variable:</label>
+            <input type="text" id="n" name="n" size="20">
+        </div>
+        <div class="lablei">
+            <label for="t">t variable:</label>
+            <input type="text" id="t" name="t" size="20">
+        </div>
+        <div class="lablei">
+            <label for="result">result: </label>
+            <input type="text" id="result" name="result" size="20" disabled>
+            <button id="solve" onclick="solve()">Solve</button>
+        </div>
+    </div>
+    <script src="timelock_wasm.js"></script>
     <script src="buttonhandler.js"></script>
 </body>
 </html>
